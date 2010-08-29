@@ -51,7 +51,7 @@ int main(int argc, char *argv[]){
             continue;
         }
 
-        printf("%c%s % 5u % 10s % 10s % 5ld % 5s % 10s\n",file_type,permbuf,hard_links,user,group,fsize,time_str,argv[i]);
+        printf("%c%s %-5u %-10s %-10s %-5ld %-5s %-10s\n",file_type,permbuf,(unsigned int)hard_links,user,group,fsize,time_str,argv[i]);
     
     }
 
